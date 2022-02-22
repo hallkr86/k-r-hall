@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import '../../App.css';
 import profilepic from '../../images/profilepic.jpg'
+import 'animate.css';
 
 
 class Home extends Component {
@@ -12,7 +13,7 @@ class Home extends Component {
         <div className= "pagebody">
             
         <div className= "container">
-            <h2>Hi, I'm Kesha!</h2>
+            <h2 className="animate__animated animate__tada">Hi, I'm Kesha!</h2>
             <section>
             <div className= "row">
             <div className= "col-md-4">
