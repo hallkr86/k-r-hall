@@ -1,0 +1,11 @@
+.navbar{
+    justify-content: center;
+    align-content: flex-start;
+    color: white;
+}
+.nav-item {
+    justify-content: center;
+    align-content: flex-start;
+    color: white;
+    padding-left: 8px;
+}
