@@ -3,9 +3,11 @@
     align-content: flex-start;
     color: white;
 }
+
+
 .nav-item {
     justify-content: center;
     align-content: flex-start;
-    color: white;
+    color: rgb(189, 74, 164);
     padding-left: 8px;
 }

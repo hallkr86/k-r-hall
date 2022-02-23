@@ -13,7 +13,7 @@ class Home extends Component {
         <div className= "pagebody">
             
         <div className= "container">
-            <h2 className="animate__animated animate__tada">Hi, I'm Kesha!</h2>
+            <h1 className="animate__animated animate__tada">Hello, I'm Kesha!</h1>
             <section>
             <div className= "row">
             <div className= "col-md-4">

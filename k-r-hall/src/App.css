@@ -11,6 +11,11 @@
   font-weight: bold;
   color: whitesmoke;
 }
+
+
+h1 {
+  font-family: 'Permanent Marker', cursive;
+}
 .container {
   background-image: url(https://images.pexels.com/photos/169573/pexels-photo-169573.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500);
   background-size: cover;
@@ -21,7 +26,8 @@
   width: auto;
 }
 .pagebody {
-  background-color: lightgrey;
+  background-color: gainsboro;
+  
 }
 .profilepic {
   border-radius: 8px;
@@ -36,17 +42,20 @@
   margin-top: 10px;
   height: 275px;
   width: 250px;
+  background-color: lightslategray;
 }
 
 .card-body {
   background-color: lightslategray;
   border-radius: 15px;
-  
+  text-align: center;
 }
  
   
 
- 
+.card-title{
+  font-weight: bold;
+}
 
 
 
@@ -67,6 +76,7 @@ section {
   background-image: url(https://images.pexels.com/photos/4068379/pexels-photo-4068379.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
   border-radius: 8px;
   padding-top: 10px;
+  padding-bottom: 10px;
   box-shadow: 0 5px 10px rgb(87, 84, 84), 0 5px 10px rgb(88, 86, 86);
   width: auto
      
@@ -97,3 +107,4 @@ for desktop
           .col-md-5 {width:84%;}
       }
 } 
+
