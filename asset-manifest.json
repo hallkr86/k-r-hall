@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/k-r-hall/static/css/main.71c1c311.css",
+    "main.js": "/k-r-hall/static/js/main.3510ea33.js",
+    "static/js/787.f35c9af7.chunk.js": "/k-r-hall/static/js/787.f35c9af7.chunk.js",
+    "static/media/workdayscheduler.jpg": "/k-r-hall/static/media/workdayscheduler.f6b454f562cf12b2c63c.jpg",
+    "static/media/employeesummary.JPG": "/k-r-hall/static/media/employeesummary.41f7f242cea8b7d91959.JPG",
+    "static/media/employeedirectory.JPG": "/k-r-hall/static/media/employeedirectory.a770f91fceefdd446aee.JPG",
+    "static/media/giddyitup.JPG": "/k-r-hall/static/media/giddyitup.14355b91d6dc3ba830f8.JPG",
+    "static/media/passwordgeneratorscreenshot.jpg": "/k-r-hall/static/media/passwordgeneratorscreenshot.a440fb85d67e50a93290.jpg",
+    "static/media/workouttracker.JPG": "/k-r-hall/static/media/workouttracker.bb6b754714b7add95f31.JPG",
+    "static/media/budgettracker.JPG": "/k-r-hall/static/media/budgettracker.7c71922d23a59dd924c1.JPG",
+    "static/media/profilepic.jpg": "/k-r-hall/static/media/profilepic.e70b91f042feead2ba55.jpg",
+    "index.html": "/k-r-hall/index.html",
+    "main.71c1c311.css.map": "/k-r-hall/static/css/main.71c1c311.css.map",
+    "main.3510ea33.js.map": "/k-r-hall/static/js/main.3510ea33.js.map",
+    "787.f35c9af7.chunk.js.map": "/k-r-hall/static/js/787.f35c9af7.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.71c1c311.css",
+    "static/js/main.3510ea33.js"
+  ]
+}
