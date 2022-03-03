@@ -1,0 +1,110 @@
+
+
+
+
+
+
+
+
+* {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-weight: bold;
+  color: whitesmoke;
+}
+
+
+h1 {
+  font-family: 'Permanent Marker', cursive;
+}
+.container {
+  background-image: url(https://images.pexels.com/photos/169573/pexels-photo-169573.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500);
+  background-size: cover;
+  height: 975px;
+  border-radius: 8px;
+  justify-content: center;
+  opacity: 10px;
+  width: auto;
+}
+.pagebody {
+  background-color: gainsboro;
+  
+}
+.profilepic {
+  border-radius: 8px;
+  box-shadow: 0 5px 10px #999, 0 5px 10px #999;
+  height: 250px;
+  padding-left: 10px;
+ 
+}
+
+.card-img-top{
+  border-radius: 15px;
+  margin-top: 10px;
+  height: 275px;
+  width: 250px;
+  background-color: lightslategray;
+}
+
+.card-body {
+  background-color: lightslategray;
+  border-radius: 15px;
+  text-align: center;
+}
+ 
+  
+
+.card-title{
+  font-weight: bold;
+}
+
+
+
+
+
+
+.navbar{
+  justify-content: center;
+  align-content: flex-start;
+  color: white;
+}
+.nav-item {
+  justify-content: center;
+  align-content: flex-start;
+  color: white;
+}
+section {
+  background-image: url(https://images.pexels.com/photos/4068379/pexels-photo-4068379.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+  border-radius: 8px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  box-shadow: 0 5px 10px rgb(87, 84, 84), 0 5px 10px rgb(88, 86, 86);
+  width: auto
+     
+}
+for mobile phones
+@media screen and (max-width: 400px) {
+  .wrapper {
+      width: 100px;
+  }
+}
+
+for tablet
+@media screen and (max-width: 768px) {
+  .wrapper {
+      width: 400px;
+      .col-s-8 {width:33.33%;}
+      .col-s-2 {width:25%;}
+      .col-md-5 {width:84%;}
+  }
+}
+ 
+for desktop
+@media screen and (max-width: 992px) {
+      .wrapper {
+          width: 992px;
+          .col-s-8 {width:33.33%;}
+          .col-s-2 {width:40%;}
+          .col-md-5 {width:84%;}
+      }
+} 
+
