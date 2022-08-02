@@ -1,1 +1,2 @@
-# k-r-hall
+This is my portfolio showcasing my past projects
+
