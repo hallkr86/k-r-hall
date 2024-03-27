@@ -21,17 +21,19 @@ class Home extends Component {
             <img src={profilepic} className={"profilepic"} alt="keshapic" />
             </div>
             <div className= "col-md-8">
+                <div className= "col-md-6">
             <p> My name is Kesha Hall. I am a full-stack web developer and a 
             graduate of Georgia Tech's Full-Stack Flex Boot Camp. I describe
             myself as a passionate developer. I've always had an interest in programming
             languages and using my creativity to build applications as well as solving problems. </p>
 
-            <p> Aside from coding, I enjoy exercising, diy projects, puzzles, drawing,
-            and spending time with my family. </p>
+            <p> I recently gained a new skil in generating images using AI. A sample of my design is my avatar on the right side of my website. </p>
 
-            <p> I am currently looking for work opportunities in the tech industry. Please
+            <p> I am currently looking for career opportunities in the tech industry. I am confident that my diverse skill set will make a significant contribution to the success of a team. Please
             take a look at my Portfolio page to see some of my creations.</p>
            
+            
+            </div>
             </div>
             </div>
             </section>
