@@ -1,8 +1,10 @@
 {
   "files": {
-    "main.css": "/k-r-hall/static/css/main.71c1c311.css",
-    "main.js": "/k-r-hall/static/js/main.3510ea33.js",
+    "main.css": "/k-r-hall/static/css/main.19d1c3f2.css",
+    "main.js": "/k-r-hall/static/js/main.f650938c.js",
     "static/js/787.f35c9af7.chunk.js": "/k-r-hall/static/js/787.f35c9af7.chunk.js",
+    "static/media/portfoliobackground.png": "/k-r-hall/static/media/portfoliobackground.2219e00ed4073b54a71d.png",
+    "static/media/sectionbackgroundme.png": "/k-r-hall/static/media/sectionbackgroundme.973ac4d67878974fc42c.png",
     "static/media/workdayscheduler.jpg": "/k-r-hall/static/media/workdayscheduler.f6b454f562cf12b2c63c.jpg",
     "static/media/employeesummary.JPG": "/k-r-hall/static/media/employeesummary.41f7f242cea8b7d91959.JPG",
     "static/media/employeedirectory.JPG": "/k-r-hall/static/media/employeedirectory.a770f91fceefdd446aee.JPG",
@@ -12,12 +14,12 @@
     "static/media/budgettracker.JPG": "/k-r-hall/static/media/budgettracker.7c71922d23a59dd924c1.JPG",
     "static/media/profilepic.jpg": "/k-r-hall/static/media/profilepic.e70b91f042feead2ba55.jpg",
     "index.html": "/k-r-hall/index.html",
-    "main.71c1c311.css.map": "/k-r-hall/static/css/main.71c1c311.css.map",
-    "main.3510ea33.js.map": "/k-r-hall/static/js/main.3510ea33.js.map",
+    "main.19d1c3f2.css.map": "/k-r-hall/static/css/main.19d1c3f2.css.map",
+    "main.f650938c.js.map": "/k-r-hall/static/js/main.f650938c.js.map",
     "787.f35c9af7.chunk.js.map": "/k-r-hall/static/js/787.f35c9af7.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.71c1c311.css",
-    "static/js/main.3510ea33.js"
+    "static/css/main.19d1c3f2.css",
+    "static/js/main.f650938c.js"
   ]
 }
