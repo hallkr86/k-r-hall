@@ -20,7 +20,7 @@ const Portfolio = () => {
         <div className= "container">
             <section>
             <h1>My Projects</h1>
-            <p> I'm so excited that you are visiting my page! Take a look at my projects below that shows my skills, education, and experience.</p>
+            <p> Take a look at my projects below that shows my skills, education, and experience.</p>
             <br></br>
             </section>
             
