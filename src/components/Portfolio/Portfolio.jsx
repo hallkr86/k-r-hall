@@ -7,6 +7,7 @@ import passwordgenerator from "../../images/passwordgeneratorscreenshot.jpg";
 import workdayscheduler from "../../images/workdayscheduler.jpg";
 import employeedirectory from "../../images/employeedirectory.JPG";
 import giddyitup from "../../images/giddyitup.JPG";
+import dailyaffirmationsserverlessapp from "../../images/dailyaffirmationsserverlessapp.png";
 // import portfoliodetails from '../Portfoliocard/portfoliodetails.json';
 
 
@@ -53,9 +54,18 @@ const Portfolio = () => {
             </div> */}
             </span>
 
-            
 
             <span style={{ "--i":2}}>
+            <img src={dailyaffirmationsserverlessapp} className="card-img-top" alt={'budget-tracker-app'} />
+            {/* <div className="card-body">
+            <h5 className="card-title">Budget Tracker</h5>
+            <a href="https://budget-app-khall.herokuapp.com/" target="_blank" rel="noreferrer" className="btn btn-dark">View Project</a>
+            <a href="https://github.com/hallkr86/hw-18-budget-tracker" target="_blank" rel="noreferrer" className="btn btn-dark">Github Repository</a>
+            </div> */}
+            </span>
+            
+
+            <span style={{ "--i":3}}>
             <img src={budgettracker} className="card-img-top" alt={'budget-tracker-app'} />
             {/* <div className="card-body">
             <h5 className="card-title">Budget Tracker</h5>
@@ -65,7 +75,7 @@ const Portfolio = () => {
             </span>
 
             
-            <span style={{ "--i":3}}>
+            <span style={{ "--i":4}}>
             <img src={workouttracker} className="card-img-top" alt={'workout-tracker'} />
             {/* <div className="card-body">
             <h5 className="card-title">Workout Tracker</h5>
@@ -77,7 +87,7 @@ const Portfolio = () => {
 
 
             
-            <span style={{ "--i":4}}>
+            <span style={{ "--i":5}}>
             <img src={employeesummary} className="card-img-top" alt={'employee-summary-app'} />
             {/* <div className="card-body">
             <h5 className="card-title">Employee Summary</h5>
@@ -89,7 +99,7 @@ const Portfolio = () => {
 
             
 
-            <span style={{ "--i":5}}>
+            <span style={{ "--i":6}}>
             <img src={employeedirectory} className="card-img-top" alt={'employee-directory'} />
             {/* <div className="card-body">
             <h5 className="card-title">Employee Directory</h5>
@@ -98,7 +108,7 @@ const Portfolio = () => {
             </div> */}
             </span>
             
-            <span style={{ "--i":6}}>
+            <span style={{ "--i":7}}>
             <img src={passwordgenerator} className="card-img-top" alt={'password-generator'} />
             {/* <div className="card-body">
             <h5 className="card-title">Password Generator</h5>
@@ -120,6 +130,15 @@ const Portfolio = () => {
             <a href="https://github.com/hallkr86/GiddyItUp" target="_blank" rel="noreferrer" className="btn btn-dark">Github Repository</a>
             </div>
 
+            </div>
+
+            <div className="col-sm-4">
+            <img src={dailyaffirmationsserverlessapp} className="card-img-top" alt={'budget-tracker-app'} />
+            <div className="card-body">
+            <h5 className="card-title">Daily Affirmations Serverless App</h5>
+            <a href="http://dailyaffirmations4321.s3-website-us-east-1.amazonaws.com" target="_blank" rel="noreferrer" className="btn btn-dark">View Project</a>
+            <a href="https://github.com/hallkr86/dailyaffirmations-serverless-app" target="_blank" rel="noreferrer" className="btn btn-dark">Github Repository</a>
+            </div>
             </div>
 
             <div className="col-sm-4">
