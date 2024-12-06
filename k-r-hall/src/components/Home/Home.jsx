@@ -27,7 +27,7 @@ class Home extends Component {
             myself as a passionate developer. I've always had an interest in programming
             languages and using my creativity to build applications as well as solving problems. </p>
 
-            <p> I recently gained a new skil in generating images using AI. A sample of my design is my avatar on the right side of my website. </p>
+            <p> I recently gained a new skill in generating images using AI. A sample of my design is my avatar on the right side of my website. </p>
 
             <p> I am currently looking for career opportunities in the tech industry. I am confident that my diverse skill set will make a significant contribution to the success of a team. Please
             take a look at my Portfolio page to see some of my creations.</p>

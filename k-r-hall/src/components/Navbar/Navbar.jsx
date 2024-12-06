@@ -6,6 +6,14 @@ import "./Navbar.css";
 const Navbar = () => {
   return (
     <div>
+
+
+
+
+
+
+
+
       <nav className="navbar navbar-expand-xl navbar-light bg-dark">
         {/* <Link to="/">Kesha Hall</Link> */}
         
@@ -40,7 +48,7 @@ const Navbar = () => {
       
     <ul className="navbar-nav mr-auto">
             <li className="nav-item active">
-              <Link to="/"> Home </Link>
+              <Link to="/"> Home </Link> 
             </li>
             
             <li className="nav-item">
