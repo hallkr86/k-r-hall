@@ -8,6 +8,7 @@ import workdayscheduler from "../../images/workdayscheduler.jpg";
 import employeedirectory from "../../images/employeedirectory.JPG";
 import giddyitup from "../../images/giddyitup.JPG";
 import dailyaffirmationsserverlessapp from "../../images/dailyaffirmationsserverlessapp.png";
+import newweatherapp from "../../images/newweatherapp.png";
 // import portfoliodetails from '../Portfoliocard/portfoliodetails.json';
 
 
@@ -46,7 +47,7 @@ const Portfolio = () => {
             <div className="box">
             
             <span style={{ "--i":1}}>
-            <img src={giddyitup} className="card-img-top" alt={'giddy-it-up'} />
+            <img src={newweatherapp} className="card-img-top" alt={'weather-app'} />
             {/* <div className="card-body">
             <h5 className="card-title">Giddy It Up</h5>
             <a href="https://giddyitup-eg.herokuapp.com/" target="_blank" rel="noreferrer" className="btn btn-dark">View Project</a>
@@ -123,11 +124,11 @@ const Portfolio = () => {
             <div className='row'>
             <div className="col-sm-4">
 
-            <img src={giddyitup} className="card-img-top" alt={'giddy-it-up'} />
+            <img src={newweatherapp} className="card-img-top" alt={'weather-app'} />
             <div className="card-body">
-            <h5 className="card-title">Giddy It Up</h5>
-            <a href="https://giddyitup-eg.herokuapp.com/" target="_blank" rel="noreferrer" className="btn btn-dark">View Project</a>
-            <a href="https://github.com/hallkr86/GiddyItUp" target="_blank" rel="noreferrer" className="btn btn-dark">Github Repository</a>
+            <h5 className="card-title">Weather Application</h5>
+            <a href="https://hallkr86.github.io/weather-app-kh/" target="_blank" rel="noreferrer" className="btn btn-dark">View Project</a>
+            <a href="https://github.com/hallkr86/weather-app-kh" target="_blank" rel="noreferrer" className="btn btn-dark">Github Repository</a>
             </div>
 
             </div>
