@@ -1,54 +1,53 @@
 
 
-
-
-
-
-
-
 * {
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   font-weight: bold;
   color: whitesmoke;
+  
 }
+
 
 
 h1 {
   font-family: 'Permanent Marker', cursive;
+  padding-left: 5px;
 }
-.container {
-  background-image: url(https://images.pexels.com/photos/169573/pexels-photo-169573.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500);
-  background-size: cover;
-  height: 975px;
-  border-radius: 8px;
-  justify-content: center;
-  opacity: 10px;
-  width: auto;
-}
+
 .pagebody {
-  background-color: gainsboro;
+  background: url(../src/images/portfoliobackground.png);
+  background-size:cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  justify-content: center;
+ 
+  height: 2095px;
+  display:flex;
+  flex-wrap: wrap;
+   
   
 }
 .profilepic {
   border-radius: 8px;
   box-shadow: 0 5px 10px #999, 0 5px 10px #999;
-  height: 250px;
-  padding-left: 10px;
- 
+  height: 350px;
+  padding-left: 15px; 
+  max-width: 100%;
 }
 
 .card-img-top{
-  border-radius: 15px;
   margin-top: 10px;
-  height: 275px;
-  width: 250px;
-  background-color: lightslategray;
+  height: 260px;
+  width: 240px;
 }
 
 .card-body {
-  background-color: lightslategray;
-  border-radius: 15px;
-  text-align: center;
+border-image: linear-gradient(rgb(191, 61, 83), purple) 30;
+border-width: 4px;
+border-style: solid;
+border-radius: 15px;
+text-align: center;
+margin-bottom: 2px;
 }
  
   
@@ -60,6 +59,13 @@ h1 {
 
 
 
+.btn{
+  margin-right: 8px;
+  margin-top: 6px;
+  margin-bottom: 2px;
+  width:100px;
+
+}
 
 
 .navbar{
@@ -73,24 +79,35 @@ h1 {
   color: white;
 }
 section {
-  background-image: url(https://images.pexels.com/photos/4068379/pexels-photo-4068379.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+  background-image: url(../src/images/sectionbackgroundme.png);
+  background-size: cover;
   border-radius: 8px;
   padding-top: 10px;
   padding-bottom: 10px;
-  box-shadow: 0 5px 10px rgb(87, 84, 84), 0 5px 10px rgb(88, 86, 86);
-  width: auto
-     
+  box-shadow: 0 5px 10px rgb(87, 84, 84), 0 5px 10px rgb(173, 60, 79);
+  width: auto;
+ 
+ 
+}
+
+p {
+  padding-left: 5px;
+  margin-right: 10px;
+  
+
+ 
 }
 for mobile phones
-@media screen and (max-width: 400px) {
-  .wrapper {
+@media only screen and (min-width: 320px) {
+  .App {
       width: 100px;
   }
+ 
 }
 
 for tablet
-@media screen and (max-width: 768px) {
-  .wrapper {
+@media only screen and (max-width: 768px) {
+  .App {
       width: 400px;
       .col-s-8 {width:33.33%;}
       .col-s-2 {width:25%;}
@@ -100,11 +117,59 @@ for tablet
  
 for desktop
 @media screen and (max-width: 992px) {
-      .wrapper {
+      .App {
           width: 992px;
           .col-s-8 {width:33.33%;}
           .col-s-2 {width:40%;}
           .col-md-5 {width:84%;}
       }
 } 
+
+/* added 3d rotation*/
+.box {
+  position: relative;
+  width: 200px;
+  height: 350px;
+  margin-left: 505px;
+  
+  
+  transform-style: preserve-3d;
+  animation: animate 20s linear infinite;
+}
+
+@keyframes animate {
+  0% {
+    transform: perspective(1000px) rotateY(0deg);
+  }
+  100% {
+   transform: perspective(1000px) rotateY(360deg);
+  }
+}
+
+.box span {
+  position: absolute;
+  
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  transform-origin: center;
+  transform-style: preserve-3d;
+  transform:
+rotateY(calc(var(--i) * 45deg)) translateZ(400px);
+  -webkit-box-reflect: 
+below 0px linear-gradient(transparent, transparent, #0004);
+}
+
+.box span img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 230px;
+  width: 100%;
+  object-fit: cover;
+  
+}
 

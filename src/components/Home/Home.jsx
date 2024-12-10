@@ -13,7 +13,7 @@ class Home extends Component {
         <div className= "pagebody">
             
         <div className= "container">
-            <h1 className="animate__animated animate__tada">Hello, I'm Kesha!</h1>
+            <h1 className="animate__animated animate__tada">Hi, I'm Kesha!</h1>
             <section>
             <div className= "row">
             <div className= "col-md-4">
@@ -21,19 +21,15 @@ class Home extends Component {
             <img src={profilepic} className={"profilepic"} alt="keshapic" />
             </div>
             <div className= "col-md-8">
-            <p> My name is Kesha Hall. I am a wife and mother of two young boys. I
-            am originally from middle georgia, went to college in Savannah where
-            I met my husband and moved to Texas for six years. My career
-            experience is in the logistics and human resource field, which were
-            unfulfilling as it did not meet my need for solving problems.
-            Although the pandemic is a result to my unemployment, the silver
-            lining is I now have the opportunity to learn skills for an exciting
-            career in web development. I always wanted to understand programming
-            languages and use my creativity. </p>
+                <div className= "col-md-6">
+            <p> I'm a passionate tech enthusiast with a passion for cloud computing, creative design, and coding. I am an AWS Certified Developer Associate and hold a certification in Full-Stack Web Development, giving me the skills to build robust and scalable applications. </p>
 
-            <p> During my rare down time, I enjoy walking trails, diy projects,
-            playing in makeup, and spending time with my family. </p>
+            <p> My love for technology also extends to web design, where I combine technical know-how with artistic creativity to craft visually appealing and user-friendly webpages. Additionally, I enjoy diving into code to bring ideas to life and ensure seamless functionality. </p>
+
+            <p> With a strong foundation in cloud computing and web development, I'm excited to contribute to innovative projects and make a meaningful impact in the tech industry. Take a moment to browse my Portfolio and see what i've been working on. Let's connect and create something extraordinary together! </p>
            
+            
+            </div>
             </div>
             </div>
             </section>
