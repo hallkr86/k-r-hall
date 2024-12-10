@@ -13,7 +13,7 @@ class Home extends Component {
         <div className= "pagebody">
             
         <div className= "container">
-            <h1 className="animate__animated animate__tada">Hello, I'm Kesha!</h1>
+            <h1 className="animate__animated animate__tada">Hi, I'm Kesha!</h1>
             <section>
             <div className= "row">
             <div className= "col-md-4">
@@ -22,15 +22,11 @@ class Home extends Component {
             </div>
             <div className= "col-md-8">
                 <div className= "col-md-6">
-            <p> My name is Kesha Hall. I am a full-stack web developer and a 
-            graduate of Georgia Tech's Full-Stack Flex Boot Camp. I describe
-            myself as a passionate developer. I've always had an interest in programming
-            languages and using my creativity to build applications as well as solving problems. </p>
+            <p> I'm a passionate tech enthusiast with a passion for cloud computing, creative design, and coding. I am an AWS Certified Developer Associate and hold a certification in Full-Stack Web Development, giving me the skills to build robust and scalable applications. </p>
 
-            <p> I recently gained a new skill in generating images using AI. A sample of my design is my avatar on the right side of my website. </p>
+            <p> My love for technology also extends to web design, where I combine technical know-how with artistic creativity to craft visually appealing and user-friendly webpages. Additionally, I enjoy diving into code to bring ideas to life and ensure seamless functionality. </p>
 
-            <p> I am currently looking for career opportunities in the tech industry. I am confident that my diverse skill set will make a significant contribution to the success of a team. Please
-            take a look at my Portfolio page to see some of my creations.</p>
+            <p> With a strong foundation in cloud computing and web development, I'm excited to contribute to innovative projects and make a meaningful impact in the tech industry. Take a moment to browse my Portfolio and see what i've been working on. Let's connect and create something extraordinary together! </p>
            
             
             </div>
