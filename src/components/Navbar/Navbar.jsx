@@ -15,7 +15,7 @@ const Navbar = () => {
 
 
       <nav className="navbar navbar-expand-xl navbar-light bg-dark">
-        {/* <Link to="/">Kesha Hall</Link> */}
+        
         
 
         <div className="collapse navbar-collapse" id="navbarToggleExternalContent">
