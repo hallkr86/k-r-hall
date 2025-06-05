@@ -67,7 +67,7 @@ const Portfolio = () => {
             </span>
             
 
-            {/* <span style={{ "--i":3}}>
+            <span style={{ "--i":3}}>
             <img src={budgettracker} className="card-img-top" alt={'budget-tracker-app'} />
             
             </span>
@@ -76,7 +76,7 @@ const Portfolio = () => {
             <span style={{ "--i":4}}>
             <img src={workouttracker} className="card-img-top" alt={'workout-tracker'} />
             
-            </span> */}
+            </span> 
             
 
 
@@ -135,11 +135,11 @@ const Portfolio = () => {
             </div>
             </div>
 
-            {/* <div className="col-sm-4">
+            <div className="col-sm-4">
             <img src={budgettracker} className="card-img-top" alt={'budget-tracker-app'} />
             <div className="card-body">
             <h5 className="card-title">Budget Tracker</h5>
-            <a href="https://budget-app-khall.herokuapp.com/" target="_blank" rel="noreferrer" className="btn btn-dark">View Project</a>
+            <a href="https://budget-tracker-jk0a.onrender.com/" target="_blank" rel="noreferrer" className="btn btn-dark">View Project</a>
             <a href="https://github.com/hallkr86/hw-18-budget-tracker" target="_blank" rel="noreferrer" className="btn btn-dark">Github Repository</a>
             </div>
             </div>
@@ -149,10 +149,10 @@ const Portfolio = () => {
             <img src={workouttracker} className="card-img-top" alt={'workout-tracker'} />
             <div className="card-body">
             <h5 className="card-title">Workout Tracker</h5>
-            <a href="https://workout-kh.herokuapp.com/?id=5f939e2c6a68e700178e0d56" target="_blank" rel="noreferrer" className="btn btn-dark">View Project</a>
+            <a href="https://workout-tracker-qo0v.onrender.com" target="_blank" rel="noreferrer" className="btn btn-dark">View Project</a>
             <a href="https://github.com/hallkr86/hw-17-workout-tracker" target="_blank" rel="noreferrer" className="btn btn-dark">Github Repository</a>
             </div>
-            </div> */}
+            </div> 
             
 
 
