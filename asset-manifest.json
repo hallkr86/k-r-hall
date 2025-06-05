@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/k-r-hall/static/css/main.5085955d.css",
-    "main.js": "/k-r-hall/static/js/main.326c5fe1.js",
+    "main.js": "/k-r-hall/static/js/main.ab634409.js",
     "static/js/787.f35c9af7.chunk.js": "/k-r-hall/static/js/787.f35c9af7.chunk.js",
     "static/media/dailyaffirmationsserverlessapp.png": "/k-r-hall/static/media/dailyaffirmationsserverlessapp.5c1a2d10a627d8ec4ea9.png",
     "static/media/portfoliobackground.png": "/k-r-hall/static/media/portfoliobackground.2219e00ed4073b54a71d.png",
@@ -17,11 +17,11 @@
     "static/media/profilepic.jpg": "/k-r-hall/static/media/profilepic.e70b91f042feead2ba55.jpg",
     "index.html": "/k-r-hall/index.html",
     "main.5085955d.css.map": "/k-r-hall/static/css/main.5085955d.css.map",
-    "main.326c5fe1.js.map": "/k-r-hall/static/js/main.326c5fe1.js.map",
+    "main.ab634409.js.map": "/k-r-hall/static/js/main.ab634409.js.map",
     "787.f35c9af7.chunk.js.map": "/k-r-hall/static/js/787.f35c9af7.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.5085955d.css",
-    "static/js/main.326c5fe1.js"
+    "static/js/main.ab634409.js"
   ]
 }
